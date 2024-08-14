@@ -1,0 +1,5 @@
+[profile.ci.fuzz]
+runs = 10_000
+
+[profile.default]
+remappings = ['@chainlink/local/=lib/chainlink-local/', '@chainlink/contracts-ccip/=lib/chainlink-local/lib/ccip/contracts/']
